@@ -12,55 +12,94 @@
 <body>
     <title>HTML,CSS,JS or Nah Quiz</title>
     <Form>
-        <input type="radio" name="clockTimer" id="timer">
+        <!--<input type="radio" name="clockTimer" id="timer"> -->
     
     <!--I need a quiz questions, a place for the quiz, results, and submit button -->
         <div id="question"></div>
     <!--creating radio buttons for each question and their answers -->
         <h1 id="questionOne">Question 1.</h1>
-        <p></p>
-            <input type="radio" name="correct" id="right">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-
-        <h2 id="questionTwo">Question 2.</h2>
-        <p></p>
-            <input type="radio" name="correct" id="right">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-            
-        <h3 id="questionThree">Question 3.</h3>
-        <p></p>
-            <input type="radio" name="correct" id="right">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-
-        <h4 id="questionFour">Question 4.</h4>
-        <p></p>
-            <input type="radio" name="correct" id="right">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-
-        <h5 id="questionFive">Question 5.</h5>
-        <p></p>
-            <input type="radio" name="correct" id="right">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-        
-        <h6 id="questionSix">Question 6.</h6>
-        <p></p>
-            <input type="radio" name="correct" id="right">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-            <input type="radio" name="notCorrect" id="wrong">
-
+        <p>Whats the basic structure of any wepbage?</p>
+        <input type="radio" name="correct" id="right">
+            <label for="HTML">HTML</label>
+        <input type="radio" name="notCorrect" id="wrong">
+            <label for="CSS">CSS</label>
+        <input type="radio" name="notCorrect" id="wrong">
+            <label for="JavaScript">JavaScript</label>
+        <input type="radio" name="notCorrect" id="wrong">
+            <label for="JQuery">JQuery</label>
         <div id="results"></div>
         <button id="submit">Submit</button>
+        
+    <!--Made different inputs for wrong and correct answers-->
+        <h2 id="questionTwo">Question 2.</h2>
+        <p>What method is used for selecting another element in JavaScript?</p>
+    <!--Named each answer/input with Either being wrong or correct-->
+            <input type="radio" name="correct" id="right">
+                <label for=".getElementByID">.getElementByID</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="const">const</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for=".EPSILON">.EPSILON</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="console.log">console.log</label>
+        <!--Created a sumbit button so when I click "submit" it gets the answer-->
+        <div id="results"></div>
+        <button id="submit">Submit</button>
+            
+        <h3 id="questionThree">Question 3.</h3>
+        <p>What property generates space around an Element?</p>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="position">position</label>
+            <input type="radio" name="correct" id="right">
+                <label for="padding">padding</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="max-width">max-width</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="float">float</label>
+        <div id="results"></div>
+        <button id="submit">Submit</button>
+
+        <h4 id="questionFour">Question 4.</h4>
+        <p>Which Symbol is used for creating an array?</p>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="curlyBrackets">{}</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="parentheses">()</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="slash">/</label>
+            <input type="radio" name="correct" id="right">
+                <label for="brackets">[]</label>
+        <div id="results"></div>
+        <button id="submit">Submit</button>
+
+        <h5 id="questionFive">Question 5.</h5>
+        <p>What application is on its way out?</p>
+            <input type="radio" name="correct" id="right">
+                <label for="jquery">JQuery</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="jscript">JavaScript</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="bootstrap">Bootstrap</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="python">Python</label>
+        <div id="results"></div>
+        <button id="submit">Submit</button>
+        
+        <h6 id="questionSix">Question 6.</h6>
+        <p>What removes all child nodes and content from selected elements?</p>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="detach">detach()</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="prepend">prepend()</label>           
+            <input type="radio" name="correct" id="right">
+                <label for="empty">empty()</label>
+            <input type="radio" name="notCorrect" id="wrong">
+                <label for="remove">remove()</label>
+        <div id="results"></div>
+        <button id="submit">Submit</button>
+<!--Created a sumbit button so when click "Finish" it gets the results -->
+        <div id="results"></div>
+        <button id="submit">Finish</button>
     </form>
     
 </body>
