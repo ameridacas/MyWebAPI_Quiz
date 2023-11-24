@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: darkslateblue;
+  }
+  /*The header of the page with a dotted line using dashed */
+  main {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+    border-bottom: dashed;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+  }
+  
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  
+/* Customized the button to look cyan*/
+ button {
+    background-color: cyan;
+    border-radius: 5px;
+    width: 50px;
+  }
+
+
+  pre,
+  code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
