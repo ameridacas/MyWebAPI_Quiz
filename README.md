@@ -18,7 +18,6 @@ Other users and developers can use this application to create more complex testi
 
 #Credits
 
-Github_Deploy-"file:///C:/Users/mcast/Documents/ASU-Bootcamp/Challenges/MyWebAPI_Quiz/index.html"
-GitHub_Deploy2-"file:///C:/Users/mcast/Documents/ASU-Bootcamp/Challenges/MyWebAPI_Quiz/index2.html"
+Github_Deploy-"https://ameridacas.github.io/MyWebAPI_Quiz/"
 
 Github_Repo-"https://github.com/ameridacas/MyWebAPI_Quiz"
