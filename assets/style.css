@@ -23,29 +23,112 @@
     border-bottom: dashed;
   }
   
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* take up full height of the viewport */
+  }
+
+  h1 {
+    font-size: 100%;
+    padding: 0px, 10px, 0px;
+  }
+
+  h2{
+    font-size: 100%;
+    padding: 0px, 10px, 0px;
+  }
+
+  h3{
+    font-size: 100%;
+    padding: 0px, 10px, 0px;
+  }
+
+  h4{
+    font-size: 100%;
+    padding: 0px, 10px, 0px;
+  }
+
+  h5{
+    font-size: 100%;
+    padding: 0px, 10px, 0px;
+  }
+
   h6 {
     font-size: 100%;
+    padding: 0px, 10px, 0px;
   }
   
-  input,
+  p {
+    padding: 0px, 10px, 0px;
+  }
+
+  #startpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ /* Hide the default radio button */
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label:hover:before {
+  background-color: #ff0000; /* Change to the color you want */
+}
+
+/* radio button */
+input[type="radio"] + label:before {
+  content: "";
+  display:inline-block;
+  width: 12px; 
+  height: 12px; 
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #8e44ad;
+  background-color: #fff;
+}
+/* radio button when checked */
+input[type="radio"]:checked + label:before {
+  background-color: #8e44ad;
+}
   select,
   option,
   optgroup,
   textarea,
   
 /* Customized the button to look cyan*/
- button {
-    background-color: cyan;
-    border-radius: 5px;
-    width: 50px;
-  }
+button {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px; 
+}
+.start-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px; 
+}
 
+#finish-button{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
   pre,
   code {
